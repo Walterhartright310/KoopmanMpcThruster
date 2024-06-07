@@ -1,0 +1,12 @@
+/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/ros2gzbridge/CMakeFiles/uninstall.dir
+/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/ros2gzbridge/CMakeFiles/ros2gzbridge_uninstall.dir
+/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/ros2gzbridge/CMakeFiles/odometry_subscriber.dir
+/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/ros2gzbridge/CMakeFiles/data_collect_thruster.dir
+/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/ros2gzbridge/CMakeFiles/Thruster_mpc.dir
+/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/ros2gzbridge/CMakeFiles/test.dir
+/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/ros2gzbridge/CMakeFiles/edit_cache.dir
+/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/ros2gzbridge/CMakeFiles/rebuild_cache.dir
+/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/ros2gzbridge/CMakeFiles/list_install_components.dir
+/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/ros2gzbridge/CMakeFiles/install.dir
+/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/ros2gzbridge/CMakeFiles/install/local.dir
+/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/ros2gzbridge/CMakeFiles/install/strip.dir

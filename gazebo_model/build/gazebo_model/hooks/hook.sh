@@ -1,0 +1,1 @@
+_colcon_prepend_unique_value GZ_SIM_RESOURCE_PATH /home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/models

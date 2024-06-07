@@ -1,0 +1,5 @@
+进入该目录下进行安装，安装前必须要匹配好自己的gazebo的版本这里用的是harmonic
+注意：执行下面的代码
+export GZ_VERSION=harmonic
+
+然后编译colcon build 这里只编译了ros_gz_bridge 功能包，编译时间有点长

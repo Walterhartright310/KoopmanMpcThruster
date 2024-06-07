@@ -1,0 +1,86 @@
+[0.016s] Invoking command in '/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/ros2gzbridge': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/src/ros2gzbridge -DCMAKE_INSTALL_PREFIX=/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge
+[0.326s] -- The C compiler identification is GNU 11.4.0
+[0.326s] -- The CXX compiler identification is GNU 11.4.0
+[0.327s] -- Detecting C compiler ABI info
+[0.328s] -- Detecting C compiler ABI info - done
+[0.328s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.329s] -- Detecting C compile features
+[0.329s] -- Detecting C compile features - done
+[0.329s] -- Detecting CXX compiler ABI info
+[0.330s] -- Detecting CXX compiler ABI info - done
+[0.331s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.331s] -- Detecting CXX compile features
+[0.331s] -- Detecting CXX compile features - done
+[0.331s] -- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.480s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.562s] -- Found rclcpp: 21.0.6 (/opt/ros/iron/share/rclcpp/cmake)
+[0.602s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.613s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.630s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.649s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.831s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.833s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.940s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.971s] -- Found FastRTPS: /opt/ros/iron/include  
+[1.019s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.211s] -- Found nav_msgs: 5.0.1 (/opt/ros/iron/share/nav_msgs/cmake)
+[1.446s] -- Found tf2: 0.31.6 (/opt/ros/iron/share/tf2/cmake)
+[1.460s] -- Found tf2_geometry_msgs: 0.31.6 (/opt/ros/iron/share/tf2_geometry_msgs/cmake)
+[1.475s] -- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)
+[1.476s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.476s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.927s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.988s] -- Configuring done
+[2.009s] -- Generating done
+[2.010s] -- Build files have been written to: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/ros2gzbridge
+[2.022s] Invoked command in '/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/ros2gzbridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/src/ros2gzbridge -DCMAKE_INSTALL_PREFIX=/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge
+[2.024s] Invoking command in '/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/ros2gzbridge': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/ros2gzbridge -- -j4 -l4
+[2.075s] [ 16%] [32mBuilding CXX object CMakeFiles/data_collect_thruster.dir/src/data_collect_thruster.cpp.o[0m
+[2.077s] [ 33%] [32mBuilding CXX object CMakeFiles/Thruster_mpc.dir/src/Thruster_mpc.cpp.o[0m
+[2.079s] [ 50%] [32mBuilding CXX object CMakeFiles/odometry_subscriber.dir/src/tethys_states.cpp.o[0m
+[7.774s] [01m[K/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/src/ros2gzbridge/src/Thruster_mpc.cpp:[m[K In member function ‘[01m[Kvoid MPCControllerNode::initialize_mpc()[m[K’:
+[7.775s] [01m[K/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/src/ros2gzbridge/src/Thruster_mpc.cpp:79:57:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.775s]    79 |          if (mxIsDouble(Alift_mat) && mxGetM(Alift_mat) == Dimension_Alift_row && mxGetN(Alift_mat) == Dimension_Alift_colum)
+[7.775s] [01m[K/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/src/ros2gzbridge/src/Thruster_mpc.cpp:79:101:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.775s]    79 |          if (mxIsDouble(Alift_mat) && mxGetM(Alift_mat) == Dimension_Alift_row && mxGetN(Alift_mat) == Dimension_Alift_colum)
+[7.790s] [01m[K/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/src/ros2gzbridge/src/Thruster_mpc.cpp:88:56:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.790s]    88 |         if (mxIsDouble(Blift_mat) && mxGetM(Blift_mat) == Dimension_Blift_row && mxGetN(Blift_mat) == Dimension_Blift_colum)
+[7.790s] [01m[K/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/src/ros2gzbridge/src/Thruster_mpc.cpp:88:100:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.790s]    88 |         if (mxIsDouble(Blift_mat) && mxGetM(Blift_mat) == Dimension_Blift_row && mxGetN(Blift_mat) == Dimension_Blift_colum)
+[7.790s] [01m[K/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/src/ros2gzbridge/src/Thruster_mpc.cpp:97:56:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.791s]    97 |         if (mxIsDouble(Clift_mat) && mxGetM(Clift_mat) == Dimension_Clift_row && mxGetN(Clift_mat) == Dimension_Clift_colum)
+[7.791s] [01m[K/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/src/ros2gzbridge/src/Thruster_mpc.cpp:97:100:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.791s]    97 |         if (mxIsDouble(Clift_mat) && mxGetM(Clift_mat) == Dimension_Clift_row && mxGetN(Clift_mat) == Dimension_Clift_colum)
+[10.102s] [ 66%] [32m[1mLinking CXX executable odometry_subscriber[0m
+[10.702s] [ 66%] Built target odometry_subscriber
+[13.063s] [ 83%] [32m[1mLinking CXX executable data_collect_thruster[0m
+[13.522s] [100%] [32m[1mLinking CXX executable Thruster_mpc[0m
+[13.548s] [100%] Built target data_collect_thruster
+[14.222s] [100%] Built target Thruster_mpc
+[14.233s] Invoked command in '/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/ros2gzbridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/ros2gzbridge -- -j4 -l4
+[14.269s] Invoking command in '/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/ros2gzbridge': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/ros2gzbridge
+[14.277s] -- Install configuration: ""
+[14.277s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/lib/ros2gzbridge/odometry_subscriber
+[14.282s] -- Set runtime path of "/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/lib/ros2gzbridge/odometry_subscriber" to ""
+[14.282s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/lib/ros2gzbridge/data_collect_thruster
+[14.287s] -- Set runtime path of "/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/lib/ros2gzbridge/data_collect_thruster" to ""
+[14.287s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/lib/ros2gzbridge/Thruster_mpc
+[14.292s] -- Set runtime path of "/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/lib/ros2gzbridge/Thruster_mpc" to ""
+[14.292s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/share/ros2gzbridge//launch
+[14.292s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/share/ros2gzbridge//launch/rosgzbridge_launch.py
+[14.292s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/share/ament_index/resource_index/package_run_dependencies/ros2gzbridge
+[14.292s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/share/ament_index/resource_index/parent_prefix_path/ros2gzbridge
+[14.292s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/share/ros2gzbridge/environment/ament_prefix_path.sh
+[14.292s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/share/ros2gzbridge/environment/ament_prefix_path.dsv
+[14.292s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/share/ros2gzbridge/environment/path.sh
+[14.293s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/share/ros2gzbridge/environment/path.dsv
+[14.293s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/share/ros2gzbridge/local_setup.bash
+[14.293s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/share/ros2gzbridge/local_setup.sh
+[14.293s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/share/ros2gzbridge/local_setup.zsh
+[14.293s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/share/ros2gzbridge/local_setup.dsv
+[14.293s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/share/ros2gzbridge/package.dsv
+[14.293s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/share/ament_index/resource_index/packages/ros2gzbridge
+[14.294s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/share/ros2gzbridge/cmake/ros2gzbridgeConfig.cmake
+[14.294s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/share/ros2gzbridge/cmake/ros2gzbridgeConfig-version.cmake
+[14.294s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/share/ros2gzbridge/package.xml
+[14.296s] Invoked command in '/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/ros2gzbridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/ros2gzbridge

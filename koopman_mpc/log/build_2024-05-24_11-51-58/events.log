@@ -1,0 +1,286 @@
+[0.000000] (-) TimerEvent: {}
+[0.000193] (ros2gzbridge) JobQueued: {'identifier': 'ros2gzbridge', 'dependencies': OrderedDict()}
+[0.000322] (thruster_mpc_controller) JobQueued: {'identifier': 'thruster_mpc_controller', 'dependencies': OrderedDict()}
+[0.000371] (ros2gzbridge) JobStarted: {'identifier': 'ros2gzbridge'}
+[0.004888] (thruster_mpc_controller) JobStarted: {'identifier': 'thruster_mpc_controller'}
+[0.014057] (ros2gzbridge) JobProgress: {'identifier': 'ros2gzbridge', 'progress': 'cmake'}
+[0.014323] (ros2gzbridge) Command: {'cmd': ['/usr/bin/cmake', '/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/src/ros2gzbridge', '-DCMAKE_INSTALL_PREFIX=/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge'], 'cwd': '/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/ros2gzbridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dingding'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/dingding'), ('OLDPWD', '/home/dingding'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1794'), ('SYSTEMD_EXEC_PID', '2268'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15759'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dingding'), ('JOURNAL_STREAM', '8:34798'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dingding'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/dingding/.local/bin/:/home/dingding/.local/bin:/home/dingding/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/dingding/bin'), ('SESSION_MANAGER', 'local/dingding-Latitude-5580:@/tmp/.ICE-unix/2017,unix/dingding-Latitude-5580:/tmp/.ICE-unix/2017'), ('INVOCATION_ID', 'd2d8e70bdb164c66bbc8b83663134325'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:72bc7972-89ee-44b6-bf5b-235980b42c3c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/ros2gzbridge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.098706] (-) TimerEvent: {}
+[0.199070] (-) TimerEvent: {}
+[0.299426] (-) TimerEvent: {}
+[0.324817] (ros2gzbridge) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.326521] (ros2gzbridge) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.327618] (ros2gzbridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.327958] (ros2gzbridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.328448] (ros2gzbridge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.328783] (ros2gzbridge) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.328939] (ros2gzbridge) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.329497] (ros2gzbridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.329730] (ros2gzbridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.330492] (ros2gzbridge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.331074] (ros2gzbridge) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.331198] (ros2gzbridge) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.331310] (ros2gzbridge) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.399526] (-) TimerEvent: {}
+[0.480382] (ros2gzbridge) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.499633] (-) TimerEvent: {}
+[0.561911] (ros2gzbridge) StdoutLine: {'line': b'-- Found rclcpp: 21.0.6 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[0.599738] (-) TimerEvent: {}
+[0.602361] (ros2gzbridge) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.613536] (ros2gzbridge) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.629977] (ros2gzbridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.649483] (ros2gzbridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.699833] (-) TimerEvent: {}
+[0.749067] (thruster_mpc_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/thruster_mpc_controller', 'build', '--build-base', '/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/thruster_mpc_controller/build', 'install', '--record', '/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/thruster_mpc_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/src/thruster_mpc_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dingding', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/dingding', 'OLDPWD': '/home/dingding', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1794', 'SYSTEMD_EXEC_PID': '2268', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '15759', 'ROS_DISTRO': 'iron', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'dingding', 'JOURNAL_STREAM': '8:34798', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dingding', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/iron/bin:/home/dingding/.local/bin/:/home/dingding/.local/bin:/home/dingding/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/dingding/bin', 'SESSION_MANAGER': 'local/dingding-Latitude-5580:@/tmp/.ICE-unix/2017,unix/dingding-Latitude-5580:/tmp/.ICE-unix/2017', 'INVOCATION_ID': 'd2d8e70bdb164c66bbc8b83663134325', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:72bc7972-89ee-44b6-bf5b-235980b42c3c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/thruster_mpc_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/thruster_mpc_controller/prefix_override:/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.799937] (-) TimerEvent: {}
+[0.830796] (ros2gzbridge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[0.833029] (ros2gzbridge) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.900032] (-) TimerEvent: {}
+[0.940513] (ros2gzbridge) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.971242] (ros2gzbridge) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[1.000132] (-) TimerEvent: {}
+[1.019700] (ros2gzbridge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.023760] (thruster_mpc_controller) StdoutLine: {'line': b'running egg_info\n'}
+[1.024244] (thruster_mpc_controller) StdoutLine: {'line': b'creating ../../build/thruster_mpc_controller/thruster_mpc_controller.egg-info\n'}
+[1.024419] (thruster_mpc_controller) StdoutLine: {'line': b'writing ../../build/thruster_mpc_controller/thruster_mpc_controller.egg-info/PKG-INFO\n'}
+[1.024635] (thruster_mpc_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/thruster_mpc_controller/thruster_mpc_controller.egg-info/dependency_links.txt\n'}
+[1.024787] (thruster_mpc_controller) StdoutLine: {'line': b'writing entry points to ../../build/thruster_mpc_controller/thruster_mpc_controller.egg-info/entry_points.txt\n'}
+[1.024960] (thruster_mpc_controller) StdoutLine: {'line': b'writing requirements to ../../build/thruster_mpc_controller/thruster_mpc_controller.egg-info/requires.txt\n'}
+[1.025071] (thruster_mpc_controller) StdoutLine: {'line': b'writing top-level names to ../../build/thruster_mpc_controller/thruster_mpc_controller.egg-info/top_level.txt\n'}
+[1.025303] (thruster_mpc_controller) StdoutLine: {'line': b"writing manifest file '../../build/thruster_mpc_controller/thruster_mpc_controller.egg-info/SOURCES.txt'\n"}
+[1.027642] (thruster_mpc_controller) StdoutLine: {'line': b"reading manifest file '../../build/thruster_mpc_controller/thruster_mpc_controller.egg-info/SOURCES.txt'\n"}
+[1.028901] (thruster_mpc_controller) StdoutLine: {'line': b"writing manifest file '../../build/thruster_mpc_controller/thruster_mpc_controller.egg-info/SOURCES.txt'\n"}
+[1.029200] (thruster_mpc_controller) StdoutLine: {'line': b'running build\n'}
+[1.029345] (thruster_mpc_controller) StdoutLine: {'line': b'running build_py\n'}
+[1.029550] (thruster_mpc_controller) StdoutLine: {'line': b'creating /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/thruster_mpc_controller/build\n'}
+[1.029659] (thruster_mpc_controller) StdoutLine: {'line': b'creating /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/thruster_mpc_controller/build/lib\n'}
+[1.029791] (thruster_mpc_controller) StdoutLine: {'line': b'creating /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/thruster_mpc_controller/build/lib/thruster_mpc_controller\n'}
+[1.029897] (thruster_mpc_controller) StdoutLine: {'line': b'copying thruster_mpc_controller/thruster_mpc_controller (copy)\xe8\xbe\x93\xe5\x85\xa5\xe5\x8f\x97\xe9\x99\x90\xe5\x8a\xa8\xe5\x9b\xbe.py -> /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/thruster_mpc_controller/build/lib/thruster_mpc_controller\n'}
+[1.030060] (thruster_mpc_controller) StdoutLine: {'line': b'copying thruster_mpc_controller/__init__.py -> /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/thruster_mpc_controller/build/lib/thruster_mpc_controller\n'}
+[1.030165] (thruster_mpc_controller) StdoutLine: {'line': b'copying thruster_mpc_controller/thruster_mpc_controller.py -> /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/thruster_mpc_controller/build/lib/thruster_mpc_controller\n'}
+[1.030285] (thruster_mpc_controller) StdoutLine: {'line': b'copying thruster_mpc_controller/mpc_test_states_constriant.py -> /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/thruster_mpc_controller/build/lib/thruster_mpc_controller\n'}
+[1.030382] (thruster_mpc_controller) StdoutLine: {'line': b'running install\n'}
+[1.030633] (thruster_mpc_controller) StdoutLine: {'line': b'running install_lib\n'}
+[1.031283] (thruster_mpc_controller) StdoutLine: {'line': b'creating /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/lib/python3.10/site-packages/thruster_mpc_controller\n'}
+[1.031480] (thruster_mpc_controller) StdoutLine: {'line': b'copying /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/thruster_mpc_controller/build/lib/thruster_mpc_controller/thruster_mpc_controller (copy)\xe8\xbe\x93\xe5\x85\xa5\xe5\x8f\x97\xe9\x99\x90\xe5\x8a\xa8\xe5\x9b\xbe.py -> /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/lib/python3.10/site-packages/thruster_mpc_controller\n'}
+[1.031631] (thruster_mpc_controller) StdoutLine: {'line': b'copying /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/thruster_mpc_controller/build/lib/thruster_mpc_controller/__init__.py -> /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/lib/python3.10/site-packages/thruster_mpc_controller\n'}
+[1.031783] (thruster_mpc_controller) StdoutLine: {'line': b'copying /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/thruster_mpc_controller/build/lib/thruster_mpc_controller/thruster_mpc_controller.py -> /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/lib/python3.10/site-packages/thruster_mpc_controller\n'}
+[1.031896] (thruster_mpc_controller) StdoutLine: {'line': b'copying /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/thruster_mpc_controller/build/lib/thruster_mpc_controller/mpc_test_states_constriant.py -> /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/lib/python3.10/site-packages/thruster_mpc_controller\n'}
+[1.032324] (thruster_mpc_controller) StdoutLine: {'line': b'byte-compiling /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/lib/python3.10/site-packages/thruster_mpc_controller/thruster_mpc_controller (copy)\xe8\xbe\x93\xe5\x85\xa5\xe5\x8f\x97\xe9\x99\x90\xe5\x8a\xa8\xe5\x9b\xbe.py to thruster_mpc_controller (copy)\xe8\xbe\x93\xe5\x85\xa5\xe5\x8f\x97\xe9\x99\x90\xe5\x8a\xa8\xe5\x9b\xbe.cpython-310.pyc\n'}
+[1.034421] (thruster_mpc_controller) StdoutLine: {'line': b'byte-compiling /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/lib/python3.10/site-packages/thruster_mpc_controller/__init__.py to __init__.cpython-310.pyc\n'}
+[1.034813] (thruster_mpc_controller) StdoutLine: {'line': b'byte-compiling /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/lib/python3.10/site-packages/thruster_mpc_controller/thruster_mpc_controller.py to thruster_mpc_controller.cpython-310.pyc\n'}
+[1.036775] (thruster_mpc_controller) StdoutLine: {'line': b'byte-compiling /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/lib/python3.10/site-packages/thruster_mpc_controller/mpc_test_states_constriant.py to mpc_test_states_constriant.cpython-310.pyc\n'}
+[1.037806] (thruster_mpc_controller) StdoutLine: {'line': b'running install_data\n'}
+[1.037983] (thruster_mpc_controller) StdoutLine: {'line': b'creating /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/share/ament_index\n'}
+[1.038176] (thruster_mpc_controller) StdoutLine: {'line': b'creating /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/share/ament_index/resource_index\n'}
+[1.038287] (thruster_mpc_controller) StdoutLine: {'line': b'creating /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/share/ament_index/resource_index/packages\n'}
+[1.038463] (thruster_mpc_controller) StdoutLine: {'line': b'copying resource/thruster_mpc_controller -> /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/share/ament_index/resource_index/packages\n'}
+[1.038581] (thruster_mpc_controller) StdoutLine: {'line': b'copying package.xml -> /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/share/thruster_mpc_controller\n'}
+[1.038751] (thruster_mpc_controller) StdoutLine: {'line': b'creating /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/share/thruster_mpc_controller/launch\n'}
+[1.038857] (thruster_mpc_controller) StdoutLine: {'line': b'copying launch/thruster_mpc_controller_launch.py -> /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/share/thruster_mpc_controller/launch\n'}
+[1.038959] (thruster_mpc_controller) StdoutLine: {'line': b'creating /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/libexec\n'}
+[1.039058] (thruster_mpc_controller) StdoutLine: {'line': b'creating /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/libexec/thruster_mpc_controller\n'}
+[1.039156] (thruster_mpc_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.040754] (thruster_mpc_controller) StdoutLine: {'line': b'Copying ../../build/thruster_mpc_controller/thruster_mpc_controller.egg-info to /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/lib/python3.10/site-packages/thruster_mpc_controller-0.0.0-py3.10.egg-info\n'}
+[1.041664] (thruster_mpc_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[1.060378] (thruster_mpc_controller) StdoutLine: {'line': b'Installing mpc_controller script to /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/lib/thruster_mpc_controller\n'}
+[1.060802] (thruster_mpc_controller) StdoutLine: {'line': b"writing list of installed files to '/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/thruster_mpc_controller/install.log'\n"}
+[1.088703] (thruster_mpc_controller) CommandEnded: {'returncode': 0}
+[1.100555] (-) TimerEvent: {}
+[1.102090] (thruster_mpc_controller) JobEnded: {'identifier': 'thruster_mpc_controller', 'rc': 0}
+[1.200697] (-) TimerEvent: {}
+[1.210986] (ros2gzbridge) StdoutLine: {'line': b'-- Found nav_msgs: 5.0.1 (/opt/ros/iron/share/nav_msgs/cmake)\n'}
+[1.300833] (-) TimerEvent: {}
+[1.401136] (-) TimerEvent: {}
+[1.445826] (ros2gzbridge) StdoutLine: {'line': b'-- Found tf2: 0.31.6 (/opt/ros/iron/share/tf2/cmake)\n'}
+[1.460643] (ros2gzbridge) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.31.6 (/opt/ros/iron/share/tf2_geometry_msgs/cmake)\n'}
+[1.475448] (ros2gzbridge) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)\n'}
+[1.476597] (ros2gzbridge) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.476755] (ros2gzbridge) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.501250] (-) TimerEvent: {}
+[1.601524] (-) TimerEvent: {}
+[1.701813] (-) TimerEvent: {}
+[1.802101] (-) TimerEvent: {}
+[1.902432] (-) TimerEvent: {}
+[1.927249] (ros2gzbridge) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[1.987980] (ros2gzbridge) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.002555] (-) TimerEvent: {}
+[2.008883] (ros2gzbridge) StdoutLine: {'line': b'-- Generating done\n'}
+[2.010755] (ros2gzbridge) StdoutLine: {'line': b'-- Build files have been written to: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/ros2gzbridge\n'}
+[2.021935] (ros2gzbridge) CommandEnded: {'returncode': 0}
+[2.022482] (ros2gzbridge) JobProgress: {'identifier': 'ros2gzbridge', 'progress': 'build'}
+[2.023568] (ros2gzbridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/ros2gzbridge', '--', '-j4', '-l4'], 'cwd': '/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/ros2gzbridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dingding'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/dingding'), ('OLDPWD', '/home/dingding'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1794'), ('SYSTEMD_EXEC_PID', '2268'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15759'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dingding'), ('JOURNAL_STREAM', '8:34798'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dingding'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/dingding/.local/bin/:/home/dingding/.local/bin:/home/dingding/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/dingding/bin'), ('SESSION_MANAGER', 'local/dingding-Latitude-5580:@/tmp/.ICE-unix/2017,unix/dingding-Latitude-5580:/tmp/.ICE-unix/2017'), ('INVOCATION_ID', 'd2d8e70bdb164c66bbc8b83663134325'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:72bc7972-89ee-44b6-bf5b-235980b42c3c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/ros2gzbridge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[2.075589] (ros2gzbridge) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/data_collect_thruster.dir/src/data_collect_thruster.cpp.o\x1b[0m\n'}
+[2.077177] (ros2gzbridge) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/Thruster_mpc.dir/src/Thruster_mpc.cpp.o\x1b[0m\n'}
+[2.078832] (ros2gzbridge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/odometry_subscriber.dir/src/tethys_states.cpp.o\x1b[0m\n'}
+[2.102665] (-) TimerEvent: {}
+[2.203032] (-) TimerEvent: {}
+[2.303378] (-) TimerEvent: {}
+[2.403720] (-) TimerEvent: {}
+[2.504050] (-) TimerEvent: {}
+[2.604375] (-) TimerEvent: {}
+[2.704706] (-) TimerEvent: {}
+[2.805022] (-) TimerEvent: {}
+[2.905336] (-) TimerEvent: {}
+[3.005679] (-) TimerEvent: {}
+[3.105982] (-) TimerEvent: {}
+[3.206311] (-) TimerEvent: {}
+[3.306635] (-) TimerEvent: {}
+[3.406968] (-) TimerEvent: {}
+[3.507298] (-) TimerEvent: {}
+[3.607614] (-) TimerEvent: {}
+[3.707920] (-) TimerEvent: {}
+[3.808227] (-) TimerEvent: {}
+[3.908530] (-) TimerEvent: {}
+[4.008843] (-) TimerEvent: {}
+[4.109153] (-) TimerEvent: {}
+[4.209464] (-) TimerEvent: {}
+[4.309773] (-) TimerEvent: {}
+[4.410095] (-) TimerEvent: {}
+[4.510398] (-) TimerEvent: {}
+[4.610708] (-) TimerEvent: {}
+[4.711013] (-) TimerEvent: {}
+[4.811334] (-) TimerEvent: {}
+[4.911652] (-) TimerEvent: {}
+[5.011948] (-) TimerEvent: {}
+[5.112253] (-) TimerEvent: {}
+[5.212553] (-) TimerEvent: {}
+[5.312873] (-) TimerEvent: {}
+[5.413195] (-) TimerEvent: {}
+[5.513527] (-) TimerEvent: {}
+[5.613868] (-) TimerEvent: {}
+[5.714179] (-) TimerEvent: {}
+[5.814501] (-) TimerEvent: {}
+[5.914840] (-) TimerEvent: {}
+[6.015151] (-) TimerEvent: {}
+[6.115451] (-) TimerEvent: {}
+[6.215771] (-) TimerEvent: {}
+[6.316072] (-) TimerEvent: {}
+[6.416382] (-) TimerEvent: {}
+[6.516712] (-) TimerEvent: {}
+[6.617068] (-) TimerEvent: {}
+[6.717392] (-) TimerEvent: {}
+[6.817699] (-) TimerEvent: {}
+[6.917993] (-) TimerEvent: {}
+[7.018307] (-) TimerEvent: {}
+[7.118624] (-) TimerEvent: {}
+[7.218962] (-) TimerEvent: {}
+[7.319289] (-) TimerEvent: {}
+[7.419617] (-) TimerEvent: {}
+[7.519919] (-) TimerEvent: {}
+[7.620215] (-) TimerEvent: {}
+[7.720515] (-) TimerEvent: {}
+[7.774598] (ros2gzbridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/src/ros2gzbridge/src/Thruster_mpc.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MPCControllerNode::initialize_mpc()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.774839] (ros2gzbridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/src/ros2gzbridge/src/Thruster_mpc.cpp:79:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.774996] (ros2gzbridge) StderrLine: {'line': b'   79 |          if (mxIsDouble(Alift_mat) && mxGetM(Alift_mat) == Dimension_Alift_row && mxGetN(Alift_mat) == Dimension_Alift_colum)\n'}
+[7.775195] (ros2gzbridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/src/ros2gzbridge/src/Thruster_mpc.cpp:79:101:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.775319] (ros2gzbridge) StderrLine: {'line': b'   79 |          if (mxIsDouble(Alift_mat) && mxGetM(Alift_mat) == Dimension_Alift_row && mxGetN(Alift_mat) == Dimension_Alift_colum)\n'}
+[7.789981] (ros2gzbridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/src/ros2gzbridge/src/Thruster_mpc.cpp:88:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.790242] (ros2gzbridge) StderrLine: {'line': b'   88 |         if (mxIsDouble(Blift_mat) && mxGetM(Blift_mat) == Dimension_Blift_row && mxGetN(Blift_mat) == Dimension_Blift_colum)\n'}
+[7.790362] (ros2gzbridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/src/ros2gzbridge/src/Thruster_mpc.cpp:88:100:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.790470] (ros2gzbridge) StderrLine: {'line': b'   88 |         if (mxIsDouble(Blift_mat) && mxGetM(Blift_mat) == Dimension_Blift_row && mxGetN(Blift_mat) == Dimension_Blift_colum)\n'}
+[7.790704] (ros2gzbridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/src/ros2gzbridge/src/Thruster_mpc.cpp:97:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.790836] (ros2gzbridge) StderrLine: {'line': b'   97 |         if (mxIsDouble(Clift_mat) && mxGetM(Clift_mat) == Dimension_Clift_row && mxGetN(Clift_mat) == Dimension_Clift_colum)\n'}
+[7.790935] (ros2gzbridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/src/ros2gzbridge/src/Thruster_mpc.cpp:97:100:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.791038] (ros2gzbridge) StderrLine: {'line': b'   97 |         if (mxIsDouble(Clift_mat) && mxGetM(Clift_mat) == Dimension_Clift_row && mxGetN(Clift_mat) == Dimension_Clift_colum)\n'}
+[7.820666] (-) TimerEvent: {}
+[7.921102] (-) TimerEvent: {}
+[8.021540] (-) TimerEvent: {}
+[8.121973] (-) TimerEvent: {}
+[8.222421] (-) TimerEvent: {}
+[8.322896] (-) TimerEvent: {}
+[8.423256] (-) TimerEvent: {}
+[8.523593] (-) TimerEvent: {}
+[8.623927] (-) TimerEvent: {}
+[8.724361] (-) TimerEvent: {}
+[8.824810] (-) TimerEvent: {}
+[8.925260] (-) TimerEvent: {}
+[9.025733] (-) TimerEvent: {}
+[9.126151] (-) TimerEvent: {}
+[9.226584] (-) TimerEvent: {}
+[9.327026] (-) TimerEvent: {}
+[9.427457] (-) TimerEvent: {}
+[9.527876] (-) TimerEvent: {}
+[9.628332] (-) TimerEvent: {}
+[9.728637] (-) TimerEvent: {}
+[9.829057] (-) TimerEvent: {}
+[9.929504] (-) TimerEvent: {}
+[10.030122] (-) TimerEvent: {}
+[10.102541] (ros2gzbridge) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable odometry_subscriber\x1b[0m\n'}
+[10.130232] (-) TimerEvent: {}
+[10.230811] (-) TimerEvent: {}
+[10.331431] (-) TimerEvent: {}
+[10.431919] (-) TimerEvent: {}
+[10.532398] (-) TimerEvent: {}
+[10.632819] (-) TimerEvent: {}
+[10.701960] (ros2gzbridge) StdoutLine: {'line': b'[ 66%] Built target odometry_subscriber\n'}
+[10.732973] (-) TimerEvent: {}
+[10.833303] (-) TimerEvent: {}
+[10.933688] (-) TimerEvent: {}
+[11.034056] (-) TimerEvent: {}
+[11.134353] (-) TimerEvent: {}
+[11.234683] (-) TimerEvent: {}
+[11.335083] (-) TimerEvent: {}
+[11.435493] (-) TimerEvent: {}
+[11.535832] (-) TimerEvent: {}
+[11.636151] (-) TimerEvent: {}
+[11.736500] (-) TimerEvent: {}
+[11.836830] (-) TimerEvent: {}
+[11.937158] (-) TimerEvent: {}
+[12.037461] (-) TimerEvent: {}
+[12.137771] (-) TimerEvent: {}
+[12.238103] (-) TimerEvent: {}
+[12.338427] (-) TimerEvent: {}
+[12.438746] (-) TimerEvent: {}
+[12.539184] (-) TimerEvent: {}
+[12.639588] (-) TimerEvent: {}
+[12.739934] (-) TimerEvent: {}
+[12.840293] (-) TimerEvent: {}
+[12.940644] (-) TimerEvent: {}
+[13.040992] (-) TimerEvent: {}
+[13.062772] (ros2gzbridge) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable data_collect_thruster\x1b[0m\n'}
+[13.141189] (-) TimerEvent: {}
+[13.241596] (-) TimerEvent: {}
+[13.341961] (-) TimerEvent: {}
+[13.442334] (-) TimerEvent: {}
+[13.522165] (ros2gzbridge) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable Thruster_mpc\x1b[0m\n'}
+[13.542441] (-) TimerEvent: {}
+[13.548295] (ros2gzbridge) StdoutLine: {'line': b'[100%] Built target data_collect_thruster\n'}
+[13.642612] (-) TimerEvent: {}
+[13.742978] (-) TimerEvent: {}
+[13.843400] (-) TimerEvent: {}
+[13.943817] (-) TimerEvent: {}
+[14.044104] (-) TimerEvent: {}
+[14.144392] (-) TimerEvent: {}
+[14.222409] (ros2gzbridge) StdoutLine: {'line': b'[100%] Built target Thruster_mpc\n'}
+[14.232755] (ros2gzbridge) CommandEnded: {'returncode': 0}
+[14.244491] (-) TimerEvent: {}
+[14.260272] (ros2gzbridge) JobProgress: {'identifier': 'ros2gzbridge', 'progress': 'install'}
+[14.268391] (ros2gzbridge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/ros2gzbridge'], 'cwd': '/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/ros2gzbridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dingding'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/dingding'), ('OLDPWD', '/home/dingding'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1794'), ('SYSTEMD_EXEC_PID', '2268'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15759'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dingding'), ('JOURNAL_STREAM', '8:34798'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dingding'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/dingding/.local/bin/:/home/dingding/.local/bin:/home/dingding/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/dingding/bin'), ('SESSION_MANAGER', 'local/dingding-Latitude-5580:@/tmp/.ICE-unix/2017,unix/dingding-Latitude-5580:/tmp/.ICE-unix/2017'), ('INVOCATION_ID', 'd2d8e70bdb164c66bbc8b83663134325'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:72bc7972-89ee-44b6-bf5b-235980b42c3c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/ros2gzbridge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[14.277291] (ros2gzbridge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.277493] (ros2gzbridge) StdoutLine: {'line': b'-- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/lib/ros2gzbridge/odometry_subscriber\n'}
+[14.282272] (ros2gzbridge) StdoutLine: {'line': b'-- Set runtime path of "/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/lib/ros2gzbridge/odometry_subscriber" to ""\n'}
+[14.282474] (ros2gzbridge) StdoutLine: {'line': b'-- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/lib/ros2gzbridge/data_collect_thruster\n'}
+[14.287137] (ros2gzbridge) StdoutLine: {'line': b'-- Set runtime path of "/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/lib/ros2gzbridge/data_collect_thruster" to ""\n'}
+[14.287351] (ros2gzbridge) StdoutLine: {'line': b'-- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/lib/ros2gzbridge/Thruster_mpc\n'}
+[14.291874] (ros2gzbridge) StdoutLine: {'line': b'-- Set runtime path of "/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/lib/ros2gzbridge/Thruster_mpc" to ""\n'}
+[14.292066] (ros2gzbridge) StdoutLine: {'line': b'-- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/share/ros2gzbridge//launch\n'}
+[14.292130] (ros2gzbridge) StdoutLine: {'line': b'-- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/share/ros2gzbridge//launch/rosgzbridge_launch.py\n'}
+[14.292244] (ros2gzbridge) StdoutLine: {'line': b'-- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/share/ament_index/resource_index/package_run_dependencies/ros2gzbridge\n'}
+[14.292379] (ros2gzbridge) StdoutLine: {'line': b'-- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/share/ament_index/resource_index/parent_prefix_path/ros2gzbridge\n'}
+[14.292522] (ros2gzbridge) StdoutLine: {'line': b'-- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/share/ros2gzbridge/environment/ament_prefix_path.sh\n'}
+[14.292651] (ros2gzbridge) StdoutLine: {'line': b'-- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/share/ros2gzbridge/environment/ament_prefix_path.dsv\n'}
+[14.292783] (ros2gzbridge) StdoutLine: {'line': b'-- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/share/ros2gzbridge/environment/path.sh\n'}
+[14.292925] (ros2gzbridge) StdoutLine: {'line': b'-- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/share/ros2gzbridge/environment/path.dsv\n'}
+[14.293065] (ros2gzbridge) StdoutLine: {'line': b'-- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/share/ros2gzbridge/local_setup.bash\n'}
+[14.293189] (ros2gzbridge) StdoutLine: {'line': b'-- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/share/ros2gzbridge/local_setup.sh\n'}
+[14.293316] (ros2gzbridge) StdoutLine: {'line': b'-- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/share/ros2gzbridge/local_setup.zsh\n'}
+[14.293455] (ros2gzbridge) StdoutLine: {'line': b'-- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/share/ros2gzbridge/local_setup.dsv\n'}
+[14.293591] (ros2gzbridge) StdoutLine: {'line': b'-- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/share/ros2gzbridge/package.dsv\n'}
+[14.293771] (ros2gzbridge) StdoutLine: {'line': b'-- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/share/ament_index/resource_index/packages/ros2gzbridge\n'}
+[14.293943] (ros2gzbridge) StdoutLine: {'line': b'-- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/share/ros2gzbridge/cmake/ros2gzbridgeConfig.cmake\n'}
+[14.294096] (ros2gzbridge) StdoutLine: {'line': b'-- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/share/ros2gzbridge/cmake/ros2gzbridgeConfig-version.cmake\n'}
+[14.294221] (ros2gzbridge) StdoutLine: {'line': b'-- Installing: /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/ros2gzbridge/share/ros2gzbridge/package.xml\n'}
+[14.295975] (ros2gzbridge) CommandEnded: {'returncode': 0}
+[14.335474] (ros2gzbridge) JobEnded: {'identifier': 'ros2gzbridge', 'rc': 0}
+[14.336270] (-) EventReactorShutdown: {}

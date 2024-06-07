@@ -1,0 +1,49 @@
+[0.010s] Invoking command in '/home/dingding/github_project/KoopmanMpcThruster/gazebo_model/build/gazebo_model': /usr/bin/cmake /home/dingding/github_project/KoopmanMpcThruster/gazebo_model/src/gazebo_model -DCMAKE_INSTALL_PREFIX=/home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model
+[0.062s] -- The C compiler identification is GNU 11.4.0
+[0.114s] -- The CXX compiler identification is GNU 11.4.0
+[0.121s] -- Detecting C compiler ABI info
+[0.185s] -- Detecting C compiler ABI info - done
+[0.191s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.191s] -- Detecting C compile features
+[0.192s] -- Detecting C compile features - done
+[0.194s] -- Detecting CXX compiler ABI info
+[0.268s] -- Detecting CXX compiler ABI info - done
+[0.275s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.275s] -- Detecting CXX compile features
+[0.276s] -- Detecting CXX compile features - done
+[0.278s] -- Configuring done
+[0.279s] -- Generating done
+[0.280s] -- Build files have been written to: /home/dingding/github_project/KoopmanMpcThruster/gazebo_model/build/gazebo_model
+[0.285s] Invoked command in '/home/dingding/github_project/KoopmanMpcThruster/gazebo_model/build/gazebo_model' returned '0': /usr/bin/cmake /home/dingding/github_project/KoopmanMpcThruster/gazebo_model/src/gazebo_model -DCMAKE_INSTALL_PREFIX=/home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model
+[0.286s] Invoking command in '/home/dingding/github_project/KoopmanMpcThruster/gazebo_model/build/gazebo_model': /usr/bin/cmake --build /home/dingding/github_project/KoopmanMpcThruster/gazebo_model/build/gazebo_model -- -j4 -l4
+[0.328s] [100%] [34m[1mGenerating modelsdf[0m
+[0.495s] [100%] Built target generate_model
+[0.505s] Invoked command in '/home/dingding/github_project/KoopmanMpcThruster/gazebo_model/build/gazebo_model' returned '0': /usr/bin/cmake --build /home/dingding/github_project/KoopmanMpcThruster/gazebo_model/build/gazebo_model -- -j4 -l4
+[0.535s] Invoking command in '/home/dingding/github_project/KoopmanMpcThruster/gazebo_model/build/gazebo_model': /usr/bin/cmake --install /home/dingding/github_project/KoopmanMpcThruster/gazebo_model/build/gazebo_model
+[0.543s] -- Install configuration: ""
+[0.543s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/models
+[0.543s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/models/tethys
+[0.543s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/models/tethys/materials
+[0.543s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/models/tethys/materials/scripts
+[0.543s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/models/tethys/materials/scripts/model.material
+[0.543s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/models/tethys/materials/textures
+[0.544s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/models/tethys/materials/textures/Tethys_Metalness.png
+[0.544s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/models/tethys/materials/textures/Tethys_Roughness.png
+[0.544s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/models/tethys/materials/textures/Tethys_Albedo.png
+[0.547s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/models/tethys/materials/textures/Tethys_Normal.png
+[0.548s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/models/tethys/model.sdf.in
+[0.548s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/models/tethys/model.config
+[0.549s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/models/tethys/meshes
+[0.549s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/models/tethys/meshes/base.dae
+[0.573s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/models/tethys/meshes/tethys.dae
+[0.580s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/models/tethys/meshes/propeller.dae
+[0.585s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/models/tethys_equipped
+[0.586s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/models/tethys_equipped/model.sdf
+[0.586s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/models/tethys_equipped/model.config
+[0.586s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/worlds
+[0.586s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/worlds/water_thruster.sdf
+[0.586s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/hooks
+[0.587s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/hooks/hook.sh
+[0.587s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/hooks/hook.dsv
+[0.587s] -- Installing: /home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/models/tethys/model.sdf
+[0.589s] Invoked command in '/home/dingding/github_project/KoopmanMpcThruster/gazebo_model/build/gazebo_model' returned '0': /usr/bin/cmake --install /home/dingding/github_project/KoopmanMpcThruster/gazebo_model/build/gazebo_model

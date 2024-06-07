@@ -1,0 +1,45 @@
+running egg_info
+creating ../../build/thruster_mpc_controller/thruster_mpc_controller.egg-info
+writing ../../build/thruster_mpc_controller/thruster_mpc_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/thruster_mpc_controller/thruster_mpc_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/thruster_mpc_controller/thruster_mpc_controller.egg-info/entry_points.txt
+writing requirements to ../../build/thruster_mpc_controller/thruster_mpc_controller.egg-info/requires.txt
+writing top-level names to ../../build/thruster_mpc_controller/thruster_mpc_controller.egg-info/top_level.txt
+writing manifest file '../../build/thruster_mpc_controller/thruster_mpc_controller.egg-info/SOURCES.txt'
+reading manifest file '../../build/thruster_mpc_controller/thruster_mpc_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/thruster_mpc_controller/thruster_mpc_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/thruster_mpc_controller/build
+creating /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/thruster_mpc_controller/build/lib
+creating /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/thruster_mpc_controller/build/lib/thruster_mpc_controller
+copying thruster_mpc_controller/thruster_mpc_controller (copy)输入受限动图.py -> /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/thruster_mpc_controller/build/lib/thruster_mpc_controller
+copying thruster_mpc_controller/__init__.py -> /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/thruster_mpc_controller/build/lib/thruster_mpc_controller
+copying thruster_mpc_controller/thruster_mpc_controller.py -> /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/thruster_mpc_controller/build/lib/thruster_mpc_controller
+copying thruster_mpc_controller/mpc_test_states_constriant.py -> /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/thruster_mpc_controller/build/lib/thruster_mpc_controller
+running install
+running install_lib
+creating /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/lib/python3.10/site-packages/thruster_mpc_controller
+copying /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/thruster_mpc_controller/build/lib/thruster_mpc_controller/thruster_mpc_controller (copy)输入受限动图.py -> /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/lib/python3.10/site-packages/thruster_mpc_controller
+copying /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/thruster_mpc_controller/build/lib/thruster_mpc_controller/__init__.py -> /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/lib/python3.10/site-packages/thruster_mpc_controller
+copying /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/thruster_mpc_controller/build/lib/thruster_mpc_controller/thruster_mpc_controller.py -> /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/lib/python3.10/site-packages/thruster_mpc_controller
+copying /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/thruster_mpc_controller/build/lib/thruster_mpc_controller/mpc_test_states_constriant.py -> /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/lib/python3.10/site-packages/thruster_mpc_controller
+byte-compiling /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/lib/python3.10/site-packages/thruster_mpc_controller/thruster_mpc_controller (copy)输入受限动图.py to thruster_mpc_controller (copy)输入受限动图.cpython-310.pyc
+byte-compiling /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/lib/python3.10/site-packages/thruster_mpc_controller/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/lib/python3.10/site-packages/thruster_mpc_controller/thruster_mpc_controller.py to thruster_mpc_controller.cpython-310.pyc
+byte-compiling /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/lib/python3.10/site-packages/thruster_mpc_controller/mpc_test_states_constriant.py to mpc_test_states_constriant.cpython-310.pyc
+running install_data
+creating /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/share/ament_index
+creating /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/share/ament_index/resource_index
+creating /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/share/ament_index/resource_index/packages
+copying resource/thruster_mpc_controller -> /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/share/thruster_mpc_controller
+creating /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/share/thruster_mpc_controller/launch
+copying launch/thruster_mpc_controller_launch.py -> /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/share/thruster_mpc_controller/launch
+creating /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/libexec
+creating /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/libexec/thruster_mpc_controller
+running install_egg_info
+Copying ../../build/thruster_mpc_controller/thruster_mpc_controller.egg-info to /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/lib/python3.10/site-packages/thruster_mpc_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing mpc_controller script to /home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/install/thruster_mpc_controller/lib/thruster_mpc_controller
+writing list of installed files to '/home/dingding/github_project/KoopmanMpcThruster/koopman_mpc/build/thruster_mpc_controller/install.log'

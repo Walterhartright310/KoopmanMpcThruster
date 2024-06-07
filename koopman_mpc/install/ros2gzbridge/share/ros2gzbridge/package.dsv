@@ -1,0 +1,9 @@
+source;share/ros2gzbridge/hook/cmake_prefix_path.ps1
+source;share/ros2gzbridge/hook/cmake_prefix_path.dsv
+source;share/ros2gzbridge/hook/cmake_prefix_path.sh
+source;share/ros2gzbridge/local_setup.bash
+source;share/ros2gzbridge/local_setup.dsv
+source;share/ros2gzbridge/local_setup.ps1
+source;share/ros2gzbridge/local_setup.sh
+source;share/ros2gzbridge/local_setup.spawn_bash_shell
+source;share/ros2gzbridge/local_setup.zsh

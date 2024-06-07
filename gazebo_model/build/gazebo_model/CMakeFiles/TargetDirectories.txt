@@ -1,0 +1,7 @@
+/home/dingding/github_project/KoopmanMpcThruster/gazebo_model/build/gazebo_model/CMakeFiles/generate_model.dir
+/home/dingding/github_project/KoopmanMpcThruster/gazebo_model/build/gazebo_model/CMakeFiles/edit_cache.dir
+/home/dingding/github_project/KoopmanMpcThruster/gazebo_model/build/gazebo_model/CMakeFiles/rebuild_cache.dir
+/home/dingding/github_project/KoopmanMpcThruster/gazebo_model/build/gazebo_model/CMakeFiles/list_install_components.dir
+/home/dingding/github_project/KoopmanMpcThruster/gazebo_model/build/gazebo_model/CMakeFiles/install.dir
+/home/dingding/github_project/KoopmanMpcThruster/gazebo_model/build/gazebo_model/CMakeFiles/install/local.dir
+/home/dingding/github_project/KoopmanMpcThruster/gazebo_model/build/gazebo_model/CMakeFiles/install/strip.dir

@@ -1,0 +1,16 @@
+/home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/models/tethys/materials/scripts/model.material
+/home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/models/tethys/materials/textures/Tethys_Metalness.png
+/home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/models/tethys/materials/textures/Tethys_Roughness.png
+/home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/models/tethys/materials/textures/Tethys_Albedo.png
+/home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/models/tethys/materials/textures/Tethys_Normal.png
+/home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/models/tethys/model.sdf.in
+/home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/models/tethys/model.config
+/home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/models/tethys/meshes/base.dae
+/home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/models/tethys/meshes/tethys.dae
+/home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/models/tethys/meshes/propeller.dae
+/home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/models/tethys_equipped/model.sdf
+/home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/models/tethys_equipped/model.config
+/home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/worlds/water_thruster.sdf
+/home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/hooks/hook.sh
+/home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/hooks/hook.dsv
+/home/dingding/github_project/KoopmanMpcThruster/gazebo_model/install/gazebo_model/share/gazebo_model/models/tethys/model.sdf

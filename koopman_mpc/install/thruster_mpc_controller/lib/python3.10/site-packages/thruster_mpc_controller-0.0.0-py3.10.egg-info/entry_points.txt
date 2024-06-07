@@ -1,0 +1,3 @@
+[console_scripts]
+mpc_controller = thruster_mpc_controller.thruster_mpc_controller:main
+
